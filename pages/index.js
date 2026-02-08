@@ -4,7 +4,7 @@ import { Search, Rocket, Shield, Github, ExternalLink } from 'lucide-react';
 export default function Home() {
   const [projects, setProjects] = useState([]);
   const [search, setSearch] = useState('');
-  const VPS_URL = "http://TON_IP_VPS:3001"; 
+  const VPS_URL = "http://88.178.167.134:1067"; 
 
   useEffect(() => {
     fetch(`${VPS_URL}/api/projects?q=${search}`)
