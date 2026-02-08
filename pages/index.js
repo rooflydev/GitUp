@@ -1,5 +1,8 @@
-import GitUpDashboard from '../gitup-dashboard';
-
 export default function Home() {
-  return <GitUpDashboard />;
+  return (
+    <div>
+      <h1>GitUp Dashboard</h1>
+      <p>Le dashboard sera ajouté plus tard.</p>
+    </div>
+  );
 }
