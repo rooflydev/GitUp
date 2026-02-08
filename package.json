@@ -1,6 +1,7 @@
 {
-  "name": "gitup-v3",
+  "name": "git-up-v3",
   "version": "1.0.0",
+  "private": true,
   "scripts": {
     "dev": "next dev",
     "build": "next build",
@@ -9,7 +10,11 @@
   "dependencies": {
     "next": "14.2.3",
     "react": "18.2.0",
-    "react-dom": "18.2.0"
+    "react-dom": "18.2.0",
+    "lucide-react": "^0.378.0",
+    "framer-motion": "^11.1.7",
+    "clsx": "^2.1.1",
+    "tailwind-merge": "^2.3.0"
   },
   "devDependencies": {
     "autoprefixer": "^10.4.19",
