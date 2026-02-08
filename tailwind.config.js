@@ -1,20 +1,12 @@
 /** @type {import('tailwindcss').Config} */
 module.exports = {
   content: [
-    './pages/**/*.{js,ts,jsx,tsx,mdx}',
-    './components/**/*.{js,ts,jsx,tsx,mdx}',
-    './app/**/*.{js,ts,jsx,tsx,mdx}',
-    './**/*.{js,ts,jsx,tsx,mdx}',
+    './pages/**/*.{js,jsx,ts,tsx}',
+    './components/**/*.{js,jsx,ts,tsx}',
+    './discord-bot/**/*.{js,jsx,ts,tsx}'
   ],
   theme: {
-    extend: {
-      animation: {
-        'pulse': 'pulse 3s cubic-bezier(0.4, 0, 0.6, 1) infinite',
-      },
-      fontFamily: {
-        sans: ['Inter', 'system-ui', 'sans-serif'],
-      },
-    },
+    extend: {},
   },
   plugins: [],
 }
